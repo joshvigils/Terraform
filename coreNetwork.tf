@@ -44,7 +44,6 @@ resource "azurerm_public_ip" "vpnGatewayPublicIp" {
 
 	type				= "Vpn" 
 	vpn_type			= "routebased"
-
 	active_active		= false
 	enable_bgp			= false
 	sku					= "basic"
