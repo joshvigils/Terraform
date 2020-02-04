@@ -6,4 +6,4 @@ terraform.tfstate.backup
 .vscode
 terraform.exe
 Old Files
-
+*terraform.*
