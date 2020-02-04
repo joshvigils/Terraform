@@ -13,3 +13,4 @@ variable "webappslocs" {
   type    = "list"
   default = ["eastus", "centralus", "westus", "westeurope", "northeurope"]
 }
+

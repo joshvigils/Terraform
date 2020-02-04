@@ -10,7 +10,6 @@ resource "azurerm_network_security_group" "resource_group_default" {
    location             = "${azurerm_resource_group.nsgs.location}"
    tags                 = "${azurerm_resource_group.nsgs.tags}"
 }
-
 resource "azurerm_network_security_rule" "AllowSSH" {
     name = "AllowSSH"
     resource_group_name         = "${azurerm_resource_group.nsgs.name}"
